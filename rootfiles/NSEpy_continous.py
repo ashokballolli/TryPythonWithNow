@@ -5,10 +5,10 @@ Created on Thu Mar  8 13:44:13 2018
 @author: Varun
 """
 
-import NSEpy_Download as nd
+from rootfiles import NSEpy_Download as nd
 from datetime import date ,timedelta
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 class get_stock_futures_continous():
     def __init__(self,stock,start,end):
